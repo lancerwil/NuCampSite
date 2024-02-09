@@ -17,7 +17,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/repo-name'>
         <App />
       </BrowserRouter>
     </Provider>
